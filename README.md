@@ -77,7 +77,7 @@ y recomendaciones prácticas para llevar estas mejoras a producción.
 - Observabilidad: agregar métricas (conteo de reintentos, latencias, errores), logs estructurados y trazas
 	ayudará a identificar problemas operativos.
 
-5) Pruebas añadidas (resumen)
+5) Pruebas añadidas
 
 - `src/__tests__/retry.test.ts`: prueba unitaria de `retryWithBackoff`.
 - `src/__tests__/post-service.test.ts`: prueba que simula fallos transitorios en `DatabaseProvider` y verifica
