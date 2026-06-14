@@ -85,12 +85,4 @@ y recomendaciones prácticas para llevar estas mejoras a producción.
 - `src/__tests__/productbloc.integration.test.ts`: integración ligera usando `InMemoryProductRepository`
 	y un notifier de prueba para comprobar orquestación.
 
-6) Próximos pasos recomendados (priorizados)
-
-1. Implementar un adaptador real de `DatabaseProvider` para el motor objetivo (p. ej. Postgres) y validar
-	 transacciones y concurrencia.
-2. Añadir clasificación de errores y política de reintentos basada en códigos/causas.
-3. Integrar observabilidad (OpenTelemetry o similar) y dashboards para reintentos/errores.
-4. Añadir un pipeline CI que ejecute `npm run test` y verifique linter/format y análisis estático.
-
 ---
